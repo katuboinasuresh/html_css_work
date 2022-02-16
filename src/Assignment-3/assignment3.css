@@ -5,3 +5,43 @@
 width: 100%;
 height: 100%;
 }
+.content{
+    width: 70%;
+    text-align: center;
+    background-color: #f2f2f2;
+    height: 300px;
+    border: 1px solid;
+}
+.line1,.line2{
+    display: inline-block;
+    width: 40%;
+}
+.line1{
+    float: left;
+    margin-left: 15px;
+    vertical-align: top;
+}
+.line2{
+    height: inherit;
+}
+#render-wiki{
+    height: 250px;
+    width: 100%;
+    margin-top: 10px;
+}
+.search{
+    background: black;
+    border: 1px solid white;
+    color: white;
+    height: 30px;
+    width: 150px;
+    padding: 15px;
+}
+.hie{
+    height: 100px;
+}
+#render-dictionary{
+    height: 130px;
+    width: 90%;
+    margin: 10px;
+}
